@@ -48,6 +48,7 @@ $currentPage = basename($_SERVER['PHP_SELF']);
 
             <a class="<?= $currentPage === 'profile.php' ? 'active' : '' ?>" href="profile.php">Tentang Kampus</a> 
 
+
             <a class="<?= $currentPage === 'programs.php' ? 'active' : '' ?>" href="programs.php">Program Studi</a> 
 
             <a class="<?= in_array($currentPage, ['news.php', 'news_detail.php']) ? 'active' : '' ?>" href="news.php">Berita</a> 
